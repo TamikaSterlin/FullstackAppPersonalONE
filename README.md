@@ -15,7 +15,7 @@
 
 ## Lessons Learned
 
-- I learned how to use express and node.js to get my app running server side. I also learned how to create a database using MondoDB and with that, I was able to practice using CRUD and rest api's. 
+- I learned how to use express and node.js to get my app running server side and to create use authentication. I also learned how to create a database using MondoDB and with that, I was able to practice using CRUD and rest api's.
 
 ## Other Projects
 
