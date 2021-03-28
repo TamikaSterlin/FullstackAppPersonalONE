@@ -1,4 +1,4 @@
-# ScrapeBook - FullStack Auth
+# Barista - FullStack Auth App
 
 - I created a Barista full stack app where the cashier can take orders and the barista can login to see and make the orders then delete them once completed.
 
