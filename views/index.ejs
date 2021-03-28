@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Coffee Order</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <h2 class="title">Starbucks Barista</h2>
+      <img src="img/sticker.png" alt="Starbucks image">
+
+      <p class="login">Login or Signup to see Orders:</p>
+
+      <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
+      <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+
+    </div>
+
+  </div>
+
+  <section class="CashierContainer">
+
+
+    <div class="CashierTitle">
+      <h2>Cashier: Input Order Below</h2>
+    </div>
+    <form class="CashierTitle" action="/messages" method="POST">
+      <input class="nameTwo" type="text" value="" placeholder="Customer name" name="name">
+      <input class="orderTwo" type="text" placeholder="Drink Order" name="order">
+      <select class="Size" name="size">
+        <option value="Short">Short</option>
+        <option value="Tall">Tall</option>
+        <option value="Grande">Grande</option>
+        <option value="Venti">Venti</option>
+      </select>
+
+      <button class="submit" type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+
+</html>
